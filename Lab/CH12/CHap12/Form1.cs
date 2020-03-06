@@ -23,7 +23,7 @@ namespace CHap12
 
         private void btnEnter_Click(object sender, EventArgs e)
         {
-            string inputTerm = txtTerm.Text.ToLower();
+            string in putTerm = txtTerm.Text.ToLower();
             bool found = false;
             btnAdd.Visible = false;
             txtDef.Visible = false;
